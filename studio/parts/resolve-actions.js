@@ -11,7 +11,8 @@ import { useToast } from '@sanity/ui'
 
 import { Eye, Storefront } from 'phosphor-react'
 
-const remoteURL = window.location.protocol + '//' + window.location.hostname
+// const remoteURL = window.location.protocol + '//' + window.location.hostname
+const remoteURL = 'https://discobabes.club'
 const localURL = 'http://localhost:3000'
 const frontendURL =
   window.location.hostname === 'localhost' ? localURL : remoteURL

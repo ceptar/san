@@ -1,5 +1,5 @@
 .hero {
-  @apply grid relative overflow-hidden min-h-screen border-b;
+  @apply grid relative overflow-hidden min-h-screen border-b ;
   min-height: calc(var(--vh, 1vh) * 100);
 
   @media (max-height: 500px) {
@@ -10,23 +10,27 @@
     @apply relative w-full z-0 h-full;
     grid-area: 1/-1;
 
+
+
     &.is-desktop {
-      @apply hidden sm:block;
+      @apply hidden sm:block ;
+
     }
 
     &.is-mobile {
-      @apply sm:hidden;
+      @apply sm:hidden ;
+
     }
   }
 
   &--overlay {
-    @apply z-10 flex flex-col justify-center;
+    @apply z-10 flex flex-col;
     grid-area: 1/-1;
   }
 
   &--content {
-    @apply w-full max-w-5xl mx-auto px-4 text-center text-white;
-    padding-top: calc(var(--headerHeight) + 2rem);
+    @apply w-full max-w-5xl mx-auto px-4 text-left text-white;
+    padding-top: 20vh;
     padding-bottom: var(--headerHeight);
   }
 }

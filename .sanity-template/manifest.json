@@ -29,6 +29,10 @@
         "allowCredentials": true
       },
       {
+        "origin": "https://*.discobabes.club",
+        "allowCredentials": true
+      },
+      {
         "origin": "http://localhost:3000",
         "allowCredentials": true
       }

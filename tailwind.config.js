@@ -72,7 +72,11 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        inherit: 'inherit',
+        sans: ['MetroLight', 'sans-serif'],  // Replace 'MyFont' with your actual font name
+        semibold: ['MediumFont', 'sans-serif'],
+        bold: ['MediumFont', 'sans-serif'],
+        normal: ['Metro', 'sans-serif'],
+        inherit: ['MetroLight', 'sans-serif'],
       },
       fontSize: {
         xxs: '.625rem',

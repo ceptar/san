@@ -98,7 +98,7 @@ const getSize = (layout) => {
     case 'intrinsic':
       return 'object-cover'
     case 'fill':
-      return 'object-cover'
+      return 'object-right object-cover'
     case 'contain':
       return 'object-contain'
   }
